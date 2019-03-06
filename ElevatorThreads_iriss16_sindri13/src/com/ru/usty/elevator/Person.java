@@ -3,6 +3,10 @@ package com.ru.usty.elevator;
 //Implements Runnable so a thread will run this class
 public class Person implements Runnable {
 
+	private int sourceFloor;
+	private int dstFloor;
+	private int personsElvatorID; //persóna fer í þá lyftu sem laus er. Para þarf ID við þá lyftu og auðkenni sem hún ber þegar lyfta er laus.
+
 	int sourceFloor, destination;
 	Person(int sourceFloor, int destination) {
 		this.sourceFloor = sourceFloor;

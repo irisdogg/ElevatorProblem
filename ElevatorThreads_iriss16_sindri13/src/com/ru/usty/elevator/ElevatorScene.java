@@ -17,17 +17,25 @@ public class ElevatorScene {
 	//feel free to change this.  It will be changed during grading
 	public static final int VISUALIZATION_WAIT_TIME = 500;  //milliseconds
 
+	public static Semaphore[] sourceFloors;
+	public static Semaphore[] destinationFloors;
+	public static Semaphore enterElevator;
+	public static Semaphore exitElevator;
+	public static Semaphore exitedCountMutex; //static so that we share the semaphore between threads
+	public static Semaphore enteredCountMutex;
+	public static Semaphore elevatorDoorDwellTime;
+
 	private int numberOfFloors;
 	private int numberOfElevators;
+	private Elevator[] elevators = null;
+
 
 	ArrayList<Integer> personCount; //use if you want but
 									//throw away and
 									//implement differently
 									//if it suits you
 	ArrayList<Integer> exitedCount = null;
-	public static Semaphore exitedCountMutex;
-	//static so that we share the semaphore between threads
-	public static Semaphore sem;
+
 
 	//Base function: definition must not change
 	//Necessary to add your code in this one
