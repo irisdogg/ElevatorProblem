@@ -28,6 +28,7 @@ public class ElevatorScene {
 	private int numberOfFloors;
 	private int numberOfElevators;
 	private Elevator[] elevators = null;
+	private int[] peopleInElevator;
 
 
 	ArrayList<Integer> personCount; //use if you want but

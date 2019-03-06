@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fd65961-a2ef-48df-83be-7230560ef9f4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ElevatorThreads_iriss16_sindri13/src/com/ru/usty/elevator/Elevator.java" beforeDir="false" afterPath="$PROJECT_DIR$/ElevatorThreads_iriss16_sindri13/src/com/ru/usty/elevator/Elevator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ElevatorThreads_iriss16_sindri13/src/com/ru/usty/elevator/ElevatorScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/ElevatorThreads_iriss16_sindri13/src/com/ru/usty/elevator/ElevatorScene.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElevatorThreads_iriss16_sindri13/src/com/ru/usty/elevator/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/ElevatorThreads_iriss16_sindri13/src/com/ru/usty/elevator/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ElevatorThreads_iriss16_sindri13/com/ru/usty/elevator/Elevator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ElevatorThreads_iriss16_sindri13/com/ru/usty/elevator/ElevatorScene$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ElevatorThreads_iriss16_sindri13/com/ru/usty/elevator/ElevatorScene.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ElevatorThreads_iriss16_sindri13/com/ru/usty/elevator/Person.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,11 +17,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ElevatorThreads_iriss16_sindri13/src/com/ru/usty/elevator/Elevator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="167">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               <folding>
-                <element signature="e#172#173#0" expanded="true" />
-                <element signature="e#199#200#0" expanded="true" />
+                <element signature="e#170#171#0" expanded="true" />
+                <element signature="e#212#213#0" expanded="true" />
+                <element signature="e#745#746#0" expanded="true" />
+                <element signature="e#763#764#0" expanded="true" />
+                <element signature="e#802#803#0" expanded="true" />
+                <element signature="e#816#817#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -35,10 +34,9 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ElevatorThreads_iriss16_sindri13/src/com/ru/usty/elevator/ElevatorScene.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+            <state relative-caret-position="156">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#1129#1260#0" expanded="true" />
                 <element signature="e#1259#1260#0" expanded="true" />
               </folding>
@@ -62,6 +60,9 @@
       <find>numberof</find>
       <find>numberofelevators</find>
       <find>semaphore</find>
+      <find>ElevatorScene</find>
+      <find>current</find>
+      <find>floor</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -70,9 +71,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ElevatorThreads_iriss16_sindri13/src/com/ru/usty/elevator/Elevator.java" />
-        <option value="$PROJECT_DIR$/ElevatorThreads_iriss16_sindri13/src/com/ru/usty/elevator/ElevatorScene.java" />
         <option value="$PROJECT_DIR$/ElevatorThreads_iriss16_sindri13/src/com/ru/usty/elevator/Person.java" />
+        <option value="$PROJECT_DIR$/ElevatorThreads_iriss16_sindri13/src/com/ru/usty/elevator/ElevatorScene.java" />
+        <option value="$PROJECT_DIR$/ElevatorThreads_iriss16_sindri13/src/com/ru/usty/elevator/Elevator.java" />
       </list>
     </option>
   </component>
@@ -82,9 +83,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
-    <option name="width" value="880" />
+    <option name="width" value="875" />
     <option name="height" value="793" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -131,7 +132,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551883497988" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551884782577" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -159,15 +160,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551798521851</updated>
-      <workItem from="1551798527402" duration="5911000" />
+      <workItem from="1551798527402" duration="7243000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5911000" />
+    <option name="totallyTimeSpent" value="7243000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="961" height="793" extended-state="0" />
+    <frame x="0" y="23" width="1438" height="793" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -175,7 +176,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30250272" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09670487" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32952926" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -192,7 +193,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette" />
       <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" visible="true" weight="0.03264418" />
+      <window_info anchor="right" id="Maven" visible="true" weight="0.021489972" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Database" />
@@ -276,10 +277,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ElevatorThreads_iriss16_sindri13/src/com/ru/usty/elevator/ElevatorScene.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+        <state relative-caret-position="156">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#1129#1260#0" expanded="true" />
             <element signature="e#1259#1260#0" expanded="true" />
           </folding>
@@ -288,11 +288,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ElevatorThreads_iriss16_sindri13/src/com/ru/usty/elevator/Elevator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="167">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
-            <element signature="e#172#173#0" expanded="true" />
-            <element signature="e#199#200#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#745#746#0" expanded="true" />
+            <element signature="e#763#764#0" expanded="true" />
+            <element signature="e#802#803#0" expanded="true" />
+            <element signature="e#816#817#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -14,6 +14,29 @@ public class Elevator implements Runnable {
 
 	}
 
+	int elevatorLimitOfCapacityLeft - getNumberOfPeopleInElevator(this.elevatorID);
+
+	private void enterSelectedFloor{
+		for(int i = 0; i < elevatorLimitOfCapacityLeft; i++){
+			ElevatorScene.exitedCountMutex.release();
+		}
+	}
+
+	private void enterSelectedElevator{
+		if(getNumberOfPeopleInElevator() > 6)
+		for(int i = 0; i < elevatorLimitOfCapacityLeft(); i++){
+			ElevatorScene.enterElevator.acquire();
+		}
+	}
+
+	public void elevatorAscending(){
+		currentFloor++;
+	}
+
+	public void elevatorDescending(){
+		currentFloor--;
+	}
+
 	@Override
 	public void run() {
 		try {
@@ -22,7 +45,7 @@ public class Elevator implements Runnable {
 			e.printStackTrace();
 		}
 		System.out.println("Person Thread");
-		
+
 	}
 
 }
