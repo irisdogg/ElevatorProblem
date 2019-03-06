@@ -18,7 +18,7 @@ public class ElevatorScene {
 	public static final int VISUALIZATION_WAIT_TIME = 500;  //milliseconds
 
 	public static Semaphore[] sourceFloors;
-	public static Semaphore[] destinationFloors;
+	public static Semaphore[][] destinationFloors;
 	public static Semaphore enterElevator;
 	public static Semaphore exitElevator;
 	public static Semaphore exitedCountMutex; //static so that we share the semaphore between threads
